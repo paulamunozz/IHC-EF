@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body{
+    background-color: #FFA22A;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    color: #82AC26;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav{
+    background: #FF662A;
+    height: auto;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-self: center;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li{
+    margin: 0 10px;
+    padding: 20px 0;
+}
+
+nav ul li a{
+    color: #82AC26;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav ul li:last-child {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.imgmenu{
+    width: 40px;
+    border-radius: 100px;
+}
+
+li a:hover{
+    background: #ff2a2a;
+}
+
+section.Banner{
+    box-shadow: 0px 0px 55px #4F3F84;
+}
+
+.contenidoBanner{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.box1Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBanner{
+    width: 100%;
+}
+
+.box2Banner{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+#textoBanner{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.boton{
+    background: #FF662A;
+    color: #82AC26;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background: #ff2a2a;
+}
+
+.tituloServicios{
+    text-align: center;
+    margin: 70px 0;
+}
+
+.contenidoServicios{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-gap: 2rem;
+    margin-bottom: 50px;
+}
+
+.boxServicios{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px #4F3F84;
+}
+
+.boxServicios h3{
+    color: #82AC26;
+    margin: 10px 0;
+}
+
+.boxServicios p{
+    text-align: center;
+}
+
+.boxServicios .boton{
+    margin-top: 20px;
+}
+
+.contenedor,
+.wave.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.contenedor{
+    padding: 20px 0;
+}
+
+.contenedor h2{
+    margin: 10px 0;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: #82AC26;
+    outline: none;
+    border: 1px solid #4F3F84;
+    padding: 20px 10px;
+    background-color: #FF662A;
+}
+
+.input::placeholder{
+    color: #82AC26;
+
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+    color: #82AC26;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+input[type="submit"]:hover{
+    background-color: #ff2a2a;
+    cursor: pointer;
+}
+
+.Footer{
+    background: #4F3F84;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.social{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-auto-columns: max-content;
+    gap: 1em;
+    margin-bottom: 10px;
+}
+
+.social a{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: .6em 1.5em;
+}
+
+.social a:hover{
+    background-color: #ff2a2a;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+}
